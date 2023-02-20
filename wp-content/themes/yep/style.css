@@ -1,0 +1,95 @@
+body {
+    font-family: "MontSerrat";
+}
+
+#head {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://www.cybertek.fr/blog/wp-content/uploads/2022/05/Quel-est-lordinateur-creatif-le-plus-performant-min.jpg");
+}
+
+#head > h3 {
+    color: #e7227c;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#head > h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#Calque_2 {
+    width: 128px;
+    height: 128px;
+}
+
+header {
+    background-color: #0d2954;
+    color: white;
+    
+
+}
+
+
+
+
+
+
+
+/* *** NAV *** */
+
+#nav {
+	padding: 0; margin: 0;
+	text-align: center; /* centrer le texte */
+}
+#nav li {
+	display: inline;
+	list-style: none;
+}
+#nav a {
+	display:inline-block;
+	margin: 0 30px;
+    text-decoration: none;
+    color: white;
+}
+
+/* *** WORD *** */
+
+#word {
+    background-color: #4361ee;
+    color: white;
+}
+
+/* ***LAST PROJECT ** */
+
+#LastProject > h2 {
+        color: #4361ee;
+        text-align: center;
+    }
+
+    #LastProject {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+
+
+/* *** FOOTER *** */
+
+#footer > h2 {
+    text-align: center;
+}
+
+#formulaire {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+
+
+#footer {
+    background-color: #3a0ca3;
+    color: white;
+}
