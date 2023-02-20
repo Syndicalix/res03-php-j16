@@ -10,10 +10,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />  
-<title><?php echo get_bloginfo( 'name' );?></title>
+        <link rel="stylesheet" href="style.css">
+        <title><?php echo get_bloginfo( 'name' );?></title>
     </head>
     <body>
         <h1>YepFolio<h1>
+
         <header id="header">
             <span>
             <?xml version="1.0" encoding="utf-8"?>
@@ -85,6 +87,7 @@
 
             <section id="LastProject">
                 <h2>MES DERNIERS PROJETS<h2>
+                <section class="article">
                     <article id="card1">
                         <h3>APPLICATION SANTE<h3>
                             <p>Pharmacie de Maurepas</p>
@@ -105,6 +108,7 @@
                         <h3>SITE PROMOTIONNEL</h3>
                             <p>Festival des choses</p>
                     </article>
+                </section>
             </section>
         </main>
 

@@ -1,6 +1,13 @@
-body {
-    font-family: "MontSerrat";
-}
+/*!  
+  
+Theme Name: Yep  
+Description: Thème WordPress custom pour Syndi Calix  
+Version: 1.0  
+Author: Syndi Calix  
+Author URI: https://github.com/Syndicalix/  
+  
+*/
+
 
 #head {
     height: 100vh;
@@ -32,11 +39,6 @@ header {
 }
 
 
-
-
-
-
-
 /* *** NAV *** */
 
 #nav {
@@ -61,6 +63,10 @@ header {
     color: white;
 }
 
+#word > h2 {
+    text-align: center;
+}
+
 /* ***LAST PROJECT ** */
 
 #LastProject > h2 {
@@ -68,12 +74,13 @@ header {
         text-align: center;
     }
 
-    #LastProject {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
 
+#lastProject > .article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
 
 
 /* *** FOOTER *** */
